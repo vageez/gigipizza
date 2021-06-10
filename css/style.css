@@ -1,0 +1,27 @@
+a{
+	text-decoration: none;
+	color:#981b1e;
+}
+header{
+}
+
+header h1{
+	text-align: center;
+	font-size: 18px;
+}
+h1#heading{
+	font-size: 20px;
+}
+footer{
+	text-align: center;
+}
+#logo{
+	width:512px;
+	height:512px;
+	margin:0 auto;
+}
+.menu{
+	width:1000px;
+	height:773px;
+	margin:5px auto;
+}
