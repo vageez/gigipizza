@@ -15,7 +15,8 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }} # User of the server you want to ssh into
 
           script: |
-            mkdir -p web
-            cd web 
+            mkdir -p /var/www/
+            cd /var/www/
+            rm -rf gigipizza
             git clone https://github.com/vageez/gigipizza.git
             echo 'Deployment successful to digital ocean'
