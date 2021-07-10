@@ -1,3 +1,6 @@
+body {
+  line-height: 1.4;
+}
 a {
   text-decoration: none;
   color: #981b1e;
@@ -94,4 +97,14 @@ footer {
   .cta-text {
     display: block;
   }
+}
+
+.covid-info {
+  border: 4px solid #c5392e;
+  font-weight: bold;
+  padding: 12px;
+  width: 75%;
+  margin: 15px auto 0;
+  background-color: #f3f3f3;
+  font-size: 14px;
 }
