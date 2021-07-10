@@ -72,3 +72,26 @@ footer {
   max-width: 890px;
   margin: 5px auto;
 }
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 568px) {
+  h1.title {
+    font-size: 90px;
+  }
+  .cta {
+    font-size: 40px;
+  }
+  address {
+    font-size: 24px;
+  }
+  nav {
+    font-size: 40px;
+    margin: 40px 0;
+  }
+  #logo-wrapper {
+    padding: 55px 0;
+  }
+  .cta-text {
+    display: block;
+  }
+}
