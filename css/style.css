@@ -1,27 +1,74 @@
-a{
-	text-decoration: none;
-	color:#981b1e;
-}
-header{
+a {
+  text-decoration: none;
+  color: #981b1e;
 }
 
-header h1{
-	text-align: center;
-	font-size: 18px;
+h1.title {
+  font-size: 50px;
+  -webkit-text-stroke: 1px #c5392e;
+  color: #f6b83c;
+  text-shadow: 3px 3px 0 #c5392e, -1px -1px 0 #c5392e, 1px -1px 0 #c5392e,
+    -1px 1px 0 #c5392e, 1px 1px 0 #c5392e;
+  margin: 20px;
 }
-h1#heading{
-	font-size: 20px;
+
+nav {
+  margin: 10px 0;
 }
-footer{
-	text-align: center;
+.cta {
+  font-size: 18px;
+  margin: 10px 0;
 }
-#logo{
-	width:512px;
-	height:512px;
-	margin:0 auto;
+header h1 {
+  text-align: center;
+  font-size: 18px;
 }
-.menu{
-	width:1000px;
-	height:773px;
-	margin:5px auto;
+h1#heading {
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+}
+#logo-wrapper {
+  background-color: #f3f3f3;
+  border-top: 3px solid #f6b83c;
+  border-bottom: 3px solid #f6b83c;
+  padding: 20px 0;
+}
+#logo {
+  margin: 0 auto;
+}
+.gigi-logo {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+.gigi-menu {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+.flex {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.menu {
+  max-width: 890px;
+  margin: 5px auto;
 }
