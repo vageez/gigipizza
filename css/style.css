@@ -37,6 +37,7 @@ footer {
   border-top: 3px solid #f6b83c;
   border-bottom: 3px solid #f6b83c;
   padding: 20px 0;
+  display: flex;
 }
 #logo {
   margin: 0 auto;
@@ -106,8 +107,5 @@ footer {
   }
   .cta-text {
     display: block;
-  }
-  .covid-info {
-    font-size: 16px;
   }
 }
