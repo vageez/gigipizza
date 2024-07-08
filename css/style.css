@@ -77,7 +77,17 @@ footer {
   margin: 5px auto;
 }
 
-.info {
+.static-info {
+  border: 4px solid #0ed440;
+  font-weight: bold;
+  padding: 12px;
+  width: 75%;
+  margin: 15px auto 0;
+  background-color: #f3f3f3;
+  font-size: 16px;
+}
+
+.dialog-info {
   border: 4px solid #0ed440;
   font-weight: bold;
   padding: 12px;
