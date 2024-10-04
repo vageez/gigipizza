@@ -1,4 +1,6 @@
 window.onload = () => {
+  return null;
+
   const dialog = document.querySelector("dialog");
   const closeButton = document.querySelector("dialog button");
 
